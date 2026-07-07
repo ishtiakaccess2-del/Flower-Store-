@@ -1,1 +1,26 @@
+# Dependency directories
+/vendor/
 
+# Firebase & Security Keys (খুবই গুরুত্বপূর্ণ, এগুলো শেয়ার করবেন না)
+config/firebase-key.json
+.env
+
+# Log files
+*.log
+error_log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local temporary files
+/temp/
+/uploads/tmp/
