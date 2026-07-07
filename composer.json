@@ -1,1 +1,26 @@
-
+{
+    "name": "golap-canon/ecommerce",
+    "description": "Premium Floral Arts & Event Management E-commerce Platform using PHP and Firebase",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "kreait/firebase-php": "^7.0",
+        "vlucas/php-dotenv": "^5.5",
+        "google/cloud-firestore": "^1.39"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Golap-Canon Team",
+            "email": "info@golap-canon.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
